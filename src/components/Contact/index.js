@@ -20,13 +20,20 @@ const Contact = () => {
     e.preventDefault()
 
     emailjs
-      .sendForm('gmail', 'template_YeJhZkgb', form.current, 'your-token')
+      .sendForm(
+        process.env.REACT_APP_EMAILJS_SERVICE_ID,
+        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+        form.current,
+        process.env.REACT_APP_EMAILJS_USER_ID
+      )
       .then(
-        () => {
+        (result) => {
+          console.log('Email sent successfully:', result.text)
           alert('Message successfully sent!')
-          window.location.reload(false)
+          form.current.reset()
         },
-        () => {
+        (error) => {
+          console.error('Failed to send email:', error.text)
           alert('Failed to send the message, please try again')
         }
       )
