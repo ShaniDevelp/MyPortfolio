@@ -92,20 +92,22 @@ const Contact = () => {
           </div>
         </div>
         <div className="info-map">
-          Slobodan Gajić,
+          Muhammad Zeeshan,
           <br />
-          Serbia,
+          Pakistan,
           <br />
-          Branka RadiČevića 19, 22000 <br />
-          Sremska Mitrovica <br />
+          Islamabad, Street 19, f-10 <br />
           <br />
-          <span>freelancerslobodan@gmail.com</span>
+          <span>muhzeeshan749@gmail.com</span>
         </div>
         <div className="map-wrap">
-          <MapContainer center={[44.96366, 19.61045]} zoom={13}>
+          <MapContainer center={[33.6844, 73.0479]} zoom={13}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[44.96366, 19.61045]}>
+            <Marker position={[33.6844, 73.0479]}>
               <Popup>Sloba lives here, come over for a cup of coffee :)</Popup>
+            </Marker>
+            <Marker position={[33.7099, 73.0248]}>
+              <Popup>F-10 Islamabad, a great place to visit!</Popup>
             </Marker>
           </MapContainer>
         </div>
