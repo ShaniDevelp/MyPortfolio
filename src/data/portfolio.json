@@ -1,22 +1,25 @@
 {
     "portfolio": [
         {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
+            "cover": "/portfolio/1/bookerise.jpeg",
+            "title": "Bookerise app",
+            "description": "Bookerise is a versatile SAAS platform designed to help businesses manage service bookings effortlessly. Through an intuitive dashboard, businesses can add services, track all booking data, and streamline their scheduling process in one place. Ideal for improving booking efficiency and customer experience.",
+            "url": "https://app.bookerise.com",
+            "github": "https://github.com/SuperMayy/bookerise-customer-dashboard"
         },
         {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
+            "cover": "/portfolio/1/CLI.jpeg",
+            "title": "CLI app",
+            "description": "This project implements a user-friendly command-line interface (CLI) application built upon the powerful Next.js framework. It empowers users to interact with the app through text commands, offering different functionalities.",
+            "url": "https://cli-project-jet.vercel.app",
+            "github": "https://github.com/ShaniDevelp/CLI_Project"
         },
         {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest React, JSX, Tailwind, JestReact, JSX, Tailwind, JestReact, JSX, Tailwind, JestReact, JSX, Tailwind, JestReact, JSX, Tailwind, JestReact, JSX, Tailwind, JestReact, JSX, Tailwind, JestReact, JSX, Tailwind, Jest",
-            "url": "http://google.com"
+            "cover": "/portfolio/1/ecommerce.jpeg",
+            "title": "Ecommerce app",
+            "description": "This e-commerce platform provides a seamless user interface for customers to browse, book, and purchase products with ease. On the backend, the dashboard offers powerful tools for managing inventory, tracking orders, and overseeing all essential operations. It’s an all-in-one solution for both customers and business owners",
+            "url": "https://farhan-e-commerce-frontend.vercel.app",
+            "github": "https://github.com/ShaniDevelp/e-commerce-app"
         }
     ]
 }
